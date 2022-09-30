@@ -1,0 +1,6 @@
+import re
+
+str = "adadada (dadadAa dda qwe) dada(ds2323) 343434 qweqwe(2222) eq(eqe)ee"
+for i in re.findall("\([0-9,a-z,а-я, A-Z,А-Я]*\)", str):
+    print(i) 
+    
